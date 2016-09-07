@@ -20,5 +20,5 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:textAppearance="?android:textAppearanceLarge"
-        android:text="No Data available"/>
+        android:text="@string/no_data_available"/>
 </LinearLayout>

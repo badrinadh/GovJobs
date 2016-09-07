@@ -4,6 +4,16 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
     useLibrary 'org.apache.http.legacy'
+
+    signingConfigs {
+        release {
+            storeFile file("$rootDir/keystore.jks")
+            storePassword "pJACP8vub"
+            keyPassword "DRKeWywam"
+            keyAlias "PopEstimatorReleaseKey"
+        }
+    }
+
     defaultConfig {
         applicationId "com.india.jobs.govjobs"
         minSdkVersion 15
@@ -15,8 +25,10 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
+
 }
 
 dependencies {

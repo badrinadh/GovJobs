@@ -12,4 +12,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="follow">Follow</string>
+    <string name="get_updates">Get Updates</string>
+    <string name="no_data_available">No Data available</string>
+    <string name="job_title">Job Title</string>
+    <string name="description">description</string>
+    <string name="post_date">Post Date</string>
+    <string name="company">#Company</string>
 </resources>

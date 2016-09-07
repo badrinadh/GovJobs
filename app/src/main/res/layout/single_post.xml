@@ -27,7 +27,7 @@
                 android:id="@+id/jobTitleTv"
                 android:textSize="16sp"
                 android:textColor="#000000"
-                android:text="Job Title"
+                android:text="@string/job_title"
                 />
         </LinearLayout>
         <LinearLayout
@@ -54,7 +54,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/descriptionTv"
-                        android:text="description"
+                        android:text="@string/description"
                         />
                     <com.daniribalbert.customfontlib.views.CustomFontTextView
                         app:font="ProzaLibre-Regular"
@@ -65,7 +65,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/postDate"
-                        android:text="Post Date"
+                        android:text="@string/post_date"
                         />
                 </LinearLayout>
 
@@ -84,7 +84,7 @@
                     app:font="ProzaLibre-Regular"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="#Company"
+                    android:text="@string/company"
                     android:textColor="#000000"
                     android:padding="15dp"
                     android:id="@+id/companyName"/>
