@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/widget">
+    <ListView
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:divider="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:transcriptMode="normal"
+        android:clipToPadding="false"
+        android:id="@+id/widget_list">
+    </ListView>
+    <TextView
+        android:id="@+id/widget_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="No Data available"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GovJobs</string>
+    <string name="title_activity_home">GovJobs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello">Hello World, AndroidWidgetSample!</string>
+    <string name="app_widget_4_1">Our Widget 4x1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.india.jobs.govjobs.HomeFragment">
+    <ListView
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:divider="@android:color/transparent"
+        android:layout_above="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:transcriptMode="normal"
+        android:clipToPadding="false"
+        android:id="@+id/jobsLv">
+    </ListView>
+</FrameLayout>
